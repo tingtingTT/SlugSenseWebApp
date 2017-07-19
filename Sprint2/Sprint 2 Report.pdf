@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:ct="http://www.abisource.com/changetracking.dtd" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="106" xmlns:dc="http://purl.org/dc/elements/1.1/" styles="unlocked" fileformat="1.0" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="0.99.2" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="abiword.date_last_changed">Tue Jul 18 23:58:30 2017
+</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.creator">zach</m>
+<m key="dc.date">Tue Jul 18 23:58:30 2017
+</m>
+<m key="dc.format">application/x-abiword</m>
+</metadata>
+<rdf>
+</rdf>
+<history version="5" edit-time="2384" last-saved="1500447510" uid="1f28ff32-6c4a-11e7-82d5-ae9131fe3849">
+<version id="5" started="1500446521" uid="ac2e865e-6c4f-11e7-82d5-ae9131fe3849" auto="0" top-xid="67"/>
+</history>
+<styles>
+<s type="P" name="Normal" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; color:000000; margin-left:0pt; text-position:normal; widows:2; font-style:normal; text-indent:0in; font-variant:normal; font-weight:normal; margin-right:0pt; font-size:12pt; text-decoration:none; margin-bottom:0pt; line-height:1.0; bgcolor:transparent; text-align:left; font-stretch:normal"/>
+</styles>
+<lists>
+<l id="1000" parentid="0" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+<l id="1003" parentid="1000" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+<l id="1010" parentid="1000" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+<l id="1016" parentid="1000" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+<l id="1020" parentid="1000" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+<l id="1024" parentid="1020" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+<l id="1028" parentid="1000" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+<l id="1034" parentid="1000" type="5" start-value="0" list-delim="%L" list-decimal="NULL"/>
+</lists>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section xid="23" props="page-margin-footer:0.5in; page-margin-header:0.5in">
+<p style="Normal" xid="24"><c>Sprint 2 Report</c></p>
+<p style="Normal" xid="1"><c>Product: SlugSense WebApp</c></p>
+<p style="Normal" xid="2"><c>Team: WebSwag</c></p>
+<p style="Normal" xid="3"><c>Date: 07/18/2017</c></p>
+<p style="Normal" xid="67"><c>Scrum Masters: W. Jang &amp; Z. Holbrook</c></p>
+<p style="Normal" xid="4"><c></c></p>
+<p level="1" listid="1000" parentid="0" style="Normal" xid="5" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; margin-left:0.5000in; text-indent:-0.3000in; field-font:Arimo"><c props="list-tag:1001"></c><field type="list_label" xid="6" props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal">	Actions To End</c></p>
+<p level="2" listid="1003" parentid="1000" style="Normal" xid="7" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; margin-left:1.0000in; text-indent:-0.3000in; field-font:Arimo"><c props="width:0in; list-tag:1002; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; lang:en-US; font-variant:normal; text-transform:none; text-position:normal; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; color:000000; font-stretch:normal"></c><field type="list_label" xid="8" props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal">	We find that a majority of our blockers are related to a lack of open communication from our mentors. We find this is on us, and understand that it is our duty to communicate with our mentors over what they want, when they want it, much more often than usual.</c></p>
+<p level="2" listid="1003" parentid="1000" style="Normal" xid="9" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; margin-left:1.0000in; text-indent:-0.3000in; field-font:Arimo"><c props="width:0in; list-tag:1004; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; lang:en-US; font-variant:normal; text-transform:none; text-position:normal; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; color:000000; font-stretch:normal"></c><field type="list_label" xid="10" props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal">	Over time, team members tend to wander off from the tasks they are given; as such, what members are doing does not always reflect the scrum board. The Scrum master should be put more to task towards guiding all members in their tasks.</c></p>
+<p level="2" listid="1003" parentid="1000" style="Normal" xid="11" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; margin-left:1.0000in; text-indent:-0.3000in; field-font:Arimo"><c props="width:0in; list-tag:1005; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; lang:en-US; font-variant:normal; text-transform:none; text-position:normal; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; color:000000; font-stretch:normal"></c><field type="list_label" xid="12" props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal">	The Scrum master must be more focused on removing other members’ blockers over their own work.</c></p>
+<p level="1" listid="1000" parentid="1000" style="Normal" xid="13" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; margin-left:0.5000in; text-indent:-0.3000in; field-font:Arimo"><c props="width:0in; list-tag:1006; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; lang:en-US; font-variant:normal; text-transform:none; text-position:normal; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; color:000000; font-stretch:normal"></c><field type="list_label" xid="14" props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal">	Actions To Begin</c></p>
+<p level="2" listid="1010" parentid="1000" style="Normal" xid="19" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; margin-left:1.0000in; text-indent:-0.3000in; field-font:Arimo"><c props="width:0in; list-tag:1009; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; lang:en-US; font-variant:normal; text-transform:none; text-position:normal; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; color:000000; font-stretch:normal"></c><field type="list_label" xid="20" props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal">	The Scrum master should guide members more often in their tasks.</c></p>
+<p level="2" listid="1010" parentid="1000" style="Normal" xid="21" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; margin-left:1.0000in; text-indent:-0.3000in; field-font:Arimo"><c props="width:0in; list-tag:1011; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; lang:en-US; font-variant:normal; text-transform:none; text-position:normal; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; color:000000; font-stretch:normal"></c><field type="list_label" xid="22" props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal">	Members will read more documentation for Vuetify and Javascript.</c></p>
+<p level="2" listid="1010" parentid="1000" style="Normal" xid="27" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; margin-left:1.0000in; text-indent:-0.3000in; field-font:Arimo"><c props="width:0in; list-tag:1013; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; lang:en-US; font-variant:normal; text-transform:none; text-position:normal; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; color:000000; font-stretch:normal"></c><field type="list_label" xid="28" props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal">	Members will begin to consider Material Design guidelines as they incorporate and modify features within the webapp.</c></p>
+<p level="2" listid="1010" parentid="1000" style="Normal" xid="25" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; margin-left:1.0000in; text-indent:-0.3000in; field-font:Arimo"><c props="width:0in; list-tag:1012; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; lang:en-US; font-variant:normal; text-transform:none; text-position:normal; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; color:000000; font-stretch:normal"></c><field type="list_label" xid="26" props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal">	The team will communicate more often with product mentors, and accommodate those who are not as inclined to appear in person.</c></p>
+<p level="2" listid="1010" parentid="1000" style="Normal" xid="29" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; margin-left:1.0000in; text-indent:-0.3000in; field-font:Arimo"><c props="width:0in; list-tag:1014; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; lang:en-US; font-variant:normal; text-transform:none; text-position:normal; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; color:000000; font-stretch:normal"></c><field type="list_label" xid="30" props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal">	The team will drop more non-essential tasks into the sprint backlog given the guidance of project mentors.</c></p>
+<p level="1" listid="1000" parentid="1000" style="Normal" xid="17" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; margin-left:0.5000in; text-indent:-0.3000in; field-font:Arimo"><c props="width:0in; list-tag:1008; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; lang:en-US; font-variant:normal; text-transform:none; text-position:normal; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; color:000000; font-stretch:normal"></c><field type="list_label" xid="18" props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal">	Actions to maintain</c></p>
+<p level="2" listid="1016" parentid="1000" style="Normal" xid="31" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; margin-left:1.0000in; text-indent:-0.3000in; field-font:Arimo"><c props="width:0in; list-tag:1015; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; lang:en-US; font-variant:normal; text-transform:none; text-position:normal; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; color:000000; font-stretch:normal"></c><field type="list_label" xid="32" props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal">	The team has improved their timeliness.</c></p>
+<p level="2" listid="1016" parentid="1000" style="Normal" xid="33" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; margin-left:1.0000in; text-indent:-0.3000in; field-font:Arimo"><c props="width:0in; list-tag:1017; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; lang:en-US; font-variant:normal; text-transform:none; text-position:normal; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; color:000000; font-stretch:normal"></c><field type="list_label" xid="34" props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal">	Sharing work eases workload. Members will continue to share ideas over tasks.</c></p>
+<p level="1" listid="1000" parentid="1000" style="Normal" xid="35" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; margin-left:0.5000in; text-indent:-0.3000in; field-font:Arimo"><c props="width:0in; list-tag:1018; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; lang:en-US; font-variant:normal; text-transform:none; text-position:normal; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; color:000000; font-stretch:normal"></c><field type="list_label" xid="36" props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal">	Work completed</c></p>
+<p level="2" listid="1020" parentid="1000" style="Normal" xid="37" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; margin-left:1.0000in; text-indent:-0.3000in; field-font:Arimo"><c props="width:0in; list-tag:1019; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; lang:en-US; font-variant:normal; text-transform:none; text-position:normal; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; color:000000; font-stretch:normal"></c><field type="list_label" xid="38" props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal">	The webapp now parses real data through the API hosted on Heroku, and incorporates that into the data the webapp uses.</c></p>
+<p level="2" listid="1020" parentid="1000" style="Normal" xid="55" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; margin-left:1.0000in; text-indent:-0.3000in; field-font:Arimo"><c props="width:0in; list-tag:1031; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; lang:en-US; font-variant:normal; text-transform:none; text-position:normal; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; color:000000; font-stretch:normal"></c><field type="list_label" xid="56" props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal">	Graphs now show data on a per-selected-node basis.</c></p>
+<p level="2" listid="1020" parentid="1000" style="Normal" xid="39" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; margin-left:1.0000in; text-indent:-0.3000in; field-font:Arimo"><c props="width:0in; list-tag:1021; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; lang:en-US; font-variant:normal; text-transform:none; text-position:normal; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; color:000000; font-stretch:normal"></c><field type="list_label" xid="40" props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal">	Search is functional and context-dependent on selected fields.</c></p>
+<p level="2" listid="1020" parentid="1000" style="Normal" xid="41" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; margin-left:1.0000in; text-indent:-0.3000in; field-font:Arimo"><c props="width:0in; list-tag:1022; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; lang:en-US; font-variant:normal; text-transform:none; text-position:normal; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; color:000000; font-stretch:normal"></c><field type="list_label" xid="42" props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal">	Notifications are provided,</c></p>
+<p level="3" listid="1024" parentid="1020" style="Normal" xid="43" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; margin-left:1.5000in; text-indent:-0.3000in; field-font:Arimo"><c props="width:0in; list-tag:1023; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; lang:en-US; font-variant:normal; text-transform:none; text-position:normal; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; color:000000; font-stretch:normal"></c><field type="list_label" xid="44" props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal">	firstly as a badge for environmental variables out-of-bounds as of the last sensor update,</c></p>
+<p level="3" listid="1024" parentid="1020" style="Normal" xid="45" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; margin-left:1.5000in; text-indent:-0.3000in; field-font:Arimo"><c props="width:0in; list-tag:1025; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; lang:en-US; font-variant:normal; text-transform:none; text-position:normal; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; color:000000; font-stretch:normal"></c><field type="list_label" xid="46" props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal">	secondly on a per-selected-node basis on the dashboard using data from the last 24 hours in a way that is easy to read.</c></p>
+<p level="1" listid="1000" parentid="1020" style="Normal" xid="47" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; margin-left:0.5000in; text-indent:-0.3000in; field-font:Arimo"><c props="width:0in; list-tag:1026; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; lang:en-US; font-variant:normal; text-transform:none; text-position:normal; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; color:000000; font-stretch:normal"></c><field type="list_label" xid="48" props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal">	Work not completed</c></p>
+<p level="2" listid="1028" parentid="1000" style="Normal" xid="49" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; margin-left:1.0000in; text-indent:-0.3000in; field-font:Arimo"><c props="width:0in; list-tag:1027; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; lang:en-US; font-variant:normal; text-transform:none; text-position:normal; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; color:000000; font-stretch:normal"></c><field type="list_label" xid="50" props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal">	A userstory regarding mapping of sensors was deemed unfeasible and low-priority, and was dropped to the product backlog.</c></p>
+<p level="2" listid="1028" parentid="1000" style="Normal" xid="51" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; margin-left:1.0000in; text-indent:-0.3000in; field-font:Arimo"><c props="width:0in; list-tag:1029; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; lang:en-US; font-variant:normal; text-transform:none; text-position:normal; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; color:000000; font-stretch:normal"></c><field type="list_label" xid="52" props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal">	A user story related to improving features upon the left-hand navigation bar was deemed unnecessary, as minimal improvements made it meet a mockup provided by a UX designer from SlugSense.</c></p>
+<p level="2" listid="1028" parentid="1000" style="Normal" xid="53" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; margin-left:1.0000in; text-indent:-0.3000in; field-font:Arimo"><c props="width:0in; list-tag:1030; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; lang:en-US; font-variant:normal; text-transform:none; text-position:normal; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; color:000000; font-stretch:normal"></c><field type="list_label" xid="54" props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal">	Tasks related to performing specific SQL queries in Node.js were deemed unnecessary, as it was found out that API calls (which we were unaware of at the beginning) ably performed equivalent queries.</c></p>
+<p level="1" listid="1000" parentid="1000" style="Normal" xid="57" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; margin-left:0.5000in; text-indent:-0.3000in; field-font:Arimo"><c props="width:0in; list-tag:1032; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; lang:en-US; font-variant:normal; text-transform:none; text-position:normal; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; color:000000; font-stretch:normal"></c><field type="list_label" xid="58" props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal">	Work completion rate</c></p>
+<p level="2" listid="1034" parentid="1000" style="Normal" xid="59" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; margin-left:1.0000in; text-indent:-0.3000in; field-font:Arimo"><c props="width:0in; list-tag:1033; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; lang:en-US; font-variant:normal; text-transform:none; text-position:normal; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; color:000000; font-stretch:normal"></c><field type="list_label" xid="60" props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal">	Effectively, 28/39 story points were satisfied, with 3 of 4 user stories being completed.</c></p>
+<p level="2" listid="1034" parentid="1000" style="Normal" xid="61" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; margin-left:1.0000in; text-indent:-0.3000in; field-font:Arimo"><c props="width:0in; list-tag:1035; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; lang:en-US; font-variant:normal; text-transform:none; text-position:normal; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; color:000000; font-stretch:normal"></c><field type="list_label" xid="62" props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal">	32 ideal working hours were completed out of an ideal 40.</c></p>
+<p level="2" listid="1034" parentid="1000" style="Normal" xid="63" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; margin-left:1.0000in; text-indent:-0.3000in; field-font:Arimo"><c props="width:0in; list-tag:1036; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; lang:en-US; font-variant:normal; text-transform:none; text-position:normal; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; color:000000; font-stretch:normal"></c><field type="list_label" xid="64" props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal">	Spring lasted 7 days, (7/11 - 7/17)</c></p>
+<p level="2" listid="1034" parentid="1000" style="Normal" xid="65" props="list-delim:%L; list-decimal:NULL; list-style:Bullet List; start-value:0; margin-left:1.0000in; text-indent:-0.3000in; field-font:Arimo"><c props="width:0in; list-tag:1037; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; lang:en-US; font-variant:normal; text-transform:none; text-position:normal; list-style:Bullet List; bgcolor:transparent; font-size:12pt; homogeneous:1; text-decoration:none; height:0in; color:000000; font-stretch:normal"></c><field type="list_label" xid="66" props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal"></field><c props="width:0in; font-family:Times New Roman; display:inline; font-style:normal; font-weight:normal; bgcolor:transparent; lang:en-US; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:12pt; height:0in; list-style:Bullet List; font-stretch:normal">	Previous sprint lasted 6 days (7/5 - 7/10), with 15/35 ideal working hours being spent, and 0/3 user stories being satisfied to completion.</c></p>
+<p style="Normal" xid="95" props="text-indent:0in; margin-left:0pt"></p>
+<p style="Normal" xid="77" props="text-align:left; text-indent:0in; dom-dir:ltr; margin-left:0pt"></p>
+<frame strux-image-dataid="9d92b9e4-6c4f-11e7-82d5-ae9131fe3849" xid="105" props="frame-col-ypos:3.082639in; bot-style:none; xpos:1.152778in; wrap-mode:wrapped-both; frame-type:image; frame-page-xpos:1.397222in; ypos:0.110417in; left-style:none; frame-height:3.316667in; frame-pref-page:1; top-style:none; position-to:column-above-text; frame-col-xpos:1.152778in; frame-pref-column:0; right-style:none; frame-width:5.313194in; frame-page-ypos:3.082639in">
+</frame><p xid="91"></p>
+</section>
+<data>
+<d name="9d92b9e4-6c4f-11e7-82d5-ae9131fe3849" mime-type="image/jpeg" base64="yes">
+/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRof
+Hh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwh
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAAR
+CAGMAkEDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAA
+AgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkK
+FhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWG
+h4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl
+5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREA
+AgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYk
+NOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk
+5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD0PwZ4M8LXfgXw/c3PhrRpp5tNtpJJZLGJ
+mdjEpLElckk85rS1Dwv4A0m3FxqWheGbOEsEElzaQRqWOTjLADPB49qteBP+SeeGv+wVa/8A
+opad4qggltrGWa41O3a2uhNFLp1obiRX2OvKiN+MMeSvpQBmnQvhuq2jNpXhQLef8exNvb4n
+7fJx83UdK0P+EE8H/wDQqaH/AOC6H/4muNuE1q607WTqumXlxfavpAs7JktW4dZJwvmbQRCS
+Hhck4AOf7uK7y9m8QQPEmnafpt3GIxvlur94G385wqwuMdDnPc8ccgFX/hBPB/8A0Kmh/wDg
+uh/+Jo/4QTwf/wBCpof/AILof/iapab4t1G+tXkk0m1ikjuJ7d1W+ZhuilaMkHyhkEoSOB1q
+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
+AL/wgng//oVND/8ABdD/APE0f8IJ4P8A+hU0P/wXQ/8AxNJ/wkF9/wBA62/8C2/+N0f8JBff
+9A62/wDAtv8A43QAv/CCeD/+hU0P/wAF0P8A8TR/wgng/wD6FTQ//BdD/wDE0n/CQX3/AEDr
+b/wLb/43R/wkF9/0Drb/AMC2/wDjdAC/8IJ4P/6FTQ//AAXQ/wDxNH/CCeD/APoVND/8F0P/
+AMTSf8JBff8AQOtv/Atv/jdRzeJbyCCSZ9NgKxqWOLs5wBn/AJ50AS/8IJ4P/wChU0P/AMF0
+P/xNH/CCeD/+hU0P/wAF0P8A8TXQUUAc/wD8IJ4P/wChU0P/AMF0P/xNH/CCeD/+hU0P/wAF
+0P8A8TXQUUAfAXmP/fb86KbRQB9v+BP+SeeGv+wVa/8Aopa6Cuf8Cf8AJPPDX/YKtf8A0Utd
+BQAUUUUAeeaD/wAet9/2FdQ/9K5q1Ky9B/49b7/sK6h/6VzVqUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFVdS/
+5Bd3/wBcX/8AQTVqqupf8gu7/wCuL/8AoJoA7miiigAooooA+AKKKKAPt/wJ/wAk88Nf9gq1
+/wDRS10Fc/4E/wCSeeGv+wVa/wDopa6CgAooooA880H/AI9b7/sK6h/6VzVqVl6D/wAet9/2
+FdQ/9K5q1KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACqupf8gu7/wCuL/8AoJq1VXUv+QXd/wDXF/8A0E0AdzRR
+RQAUUUUAfAFFFFAH2/4E/wCSeeGv+wVa/wDopa6Cuf8AAn/JPPDX/YKtf/RS10FABRRRQB55
+oP8Ax633/YV1D/0rmrUrL0H/AI9b7/sK6h/6VzVqUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+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
+yPP9s+y+5FLZqf8Az3tP+/Lf/FUbNT/572n/AH5b/wCKq7RR7V9l9yD2z7L7kUtmp/8APe0/
+78t/8VRs1P8A572n/flv/iqu0Ue1fZfcg9s+y+5FLZqf/Pe0/wC/Lf8AxVGzU/8Anvaf9+W/
++Kq7RR7V9l9yD2z7L7kYWuW2qXGi3MQaCXco+SKJtx5HT5jXNeHdJ1W21qKU2rw4VvnmjO0c
+H6V6FRXZRzKdKjKioq0v1Vj0MPm9Shh54dRVpX/FWKWzU/8Anvaf9+W/+Ko2an/z3tP+/Lf/
+ABVXaK4/avsvuR5/tn2X3IpbNT/572n/AH5b/wCKo2an/wA97T/vy3/xVXaKPavsvuQe2fZf
+cils1P8A572n/flv/iqNmp/897T/AL8t/wDFVdoo9q+y+5B7Z9l9yKWzU/8Anvaf9+W/+Ko2
+an/z3tP+/Lf/ABVXaKPavsvuQe2fZfcils1P/nvaf9+W/wDiq5Hxbp+pT3kUzReciQ8vDGQq
+gEnnk13dVdS/5Bd3/wBcX/8AQTXRhcbPD1PaJL7jqweYzwtVVYxT+X+Rd+Hlhd6d4aaG8t5I
+JTcMwSRcHGF5x+FdZRRXPXrOtVlUfU5sTXeIrSqyVm3cKKKKyMD4AooooA+3/An/ACTzw1/2
+CrX/ANFLXQVz/gT/AJJ54a/7BVr/AOilroKACiiigDzzQf8Aj1vv+wrqH/pXNWpWXoP/AB63
+3/YV1D/0rmrUoAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKq6l/yC7v/AK4v/wCgmrVVdS/5Bd3/ANcX/wDQTQB3
+NFFFABRRRQB8AUUUUAfb/gT/AJJ54a/7BVr/AOilroK5/wACf8k88Nf9gq1/9FLXQUAFFFFA
+Hnmg/wDHrff9hXUP/SuatSsvQf8Aj1vv+wrqH/pXNWpQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAVV1L/kF3f8A
+1xf/ANBNWqq6l/yC7v8A64v/AOgmgDuaKKKACiiigD4AooooA+3/AAJ/yTzw1/2CrX/0UtdB
+XP8AgT/knnhr/sFWv/opa6CgAooooA880H/j1vv+wrqH/pXNWpWXoP8Ax633/YV1D/0rmrUo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooAKq6l/yC7v8A64v/AOgmrVedfFXxRqWjWEVlpm1WnUmeVWDPGmcY29ge
+mT9K1o0pVpqEd2Ju2p7pRWD4N1PVdY8K2N9rVj9ivpUy8fqOzY/hz1x2reqJRcZOL6DCiiip
+A+AKKKKAPt/wJ/yTzw1/2CrX/wBFLWtqGowaZbia4W4ZS20C3tpJ2zgn7sasccdcYrJ8Cf8A
+JPPDX/YKtf8A0UtXtbaT+zzEmn316sp2uljcrBKo65DmRMcgDhs80AVH8Y6CkcEhviUmTzAy
+wyMI13bN0hC/uxuBGXxyCOxrdrzC38L69Y6NqlgumCb+19OayUiaP/RP3k+3ziSN/wAk6lmX
+cSyt1zmu5vbXXi8S6XqenW8CRhWW7sHndmGedyzIAMY4x6888AHJaD/x633/AGFdQ/8ASuat
+Ssfw0Jl0y5W4kjknGp34keNCis32uXJCkkgZ7ZOPU1sUAFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU2SSOGJpZXVI0G5m
+Y4AHqTVHUdXgsHSAJJcXsozFawjLv7+ir/tHAqpHpE+oyrc646ShTujsYzmCM9i2f9Y3ueB2
+A61ahpeWiEN+332t/JpObayP3tQkTlx/0xU9f99uPQNU0mkWVhol9FFCGMkTNLJKd7ytt+87
+Hkn+Xatequpf8gu7/wCuL/8AoJoc+i0QzuaKKKgAooooA+AKKKKAPt/wJ/yTzw1/2CrX/wBF
+LXQVz/gT/knnhr/sFWv/AKKWugoAKKKKAPPNB/49b7/sK6h/6VzVqVl6D/x633/YV1D/ANK5
+q1KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiqGo6vb6cyREPPdy/6m1hG6ST6DsPVjgDuaaTk7IC87rGjO7BVUZLE4AFYf9pXmtHZ
+o2IbTo2oyLkN/wBclP3v94/L6bqVNJudUdZ9dZGjB3R6fGcxJ6bz/wAtG+vyjsO9bgGBgdKv
+3Yeb/D/g/l6iKWnaVa6Yj+QrNLId0s8jbpJT6sx5P8h2xV2iiobbd2MKq6l/yC7v/ri//oJq
+1VXUv+QXd/8AXF//AEE0gO5ooooAKKKKAPgCiiigD7f8Cf8AJPPDX/YKtf8A0UtdBXP+BP8A
+knnhr/sFWv8A6KWugoAKKKKAPPNB/wCPW+/7Cuof+lc1alZeg/8AHrff9hXUP/SuatSgAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACkZlRSzEB
+QMkk8AVS1HVrbTQiSb5biXiG2hG6SU+w9PUnAHciqK6Vdauwl1wqIM5TTomzGP8Arof+Wh9v
+u+x61ahpeWiEB1S71gmLRAqW3RtRlXKf9sl/jP8Atfd/3ulXtO0m20xXMQeSeU5muJTuklP+
+038gOB2Aq6AFUAAADgAdqWhz0tHRAFFFFQMKKKKACqupf8gu7/64v/6CatVV1L/kF3f/AFxf
+/wBBNAHc0UUUAFFFFAHwBRRRQB9v+BP+SeeGv+wVa/8Aopa6Cuf8Cf8AJPPDX/YKtf8A0Utd
+BQAUUUUAeeaD/wAet9/2FdQ/9K5q1Ky9B/49b7/sK6h/6VzVqUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAFXUbz+z9NuLzyJZ/JjL+VEMs2OwFedeD
+/H+u+Lb260+OzhgcsXF3tLLbx+hX+JvTJH6Yrs765m1a8k0nT5WjijOL27Q4MY/55of75HU/
+wg+pFX9N0jT9HhaHTrOK2jdtzLGuMnpk10wlTp02pRvJ7eROrY3TtJttN3yIXmuZf9dczHdJ
+J9T2HoBgDsKv0UVzttu7KCiiikAUUUUAFFFFABVXUv8AkF3f/XF//QTVqqupf8gu7/64v/6C
+aAO5ooooAKKKKAPgCiiigD7f8Cf8k88Nf9gq1/8ARS10Fc/4E/5J54a/7BVr/wCilrU1HU7b
+S4UluROwdtirBbyTsTgn7sak9AecUAXKKw5PGGgxx28hvt0c8fmq6Quyom7bukIU+WNwIy+O
+QR2NblAHnmg/8et9/wBhXUP/AErmrUrL0H/j1vv+wrqH/pXNWpQAUUUUAFFFFABRRRQAUUUU
+AFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAVjale3F1dnSNMk23OAbm4AyLVD+hc/wj8Txg
+F+qajMs6aZpu1tRmXduYZW3Tp5j/ANB/EfYEi3punQ6ZaCCHcxJLySOcvK56sx7k/wD1ulaJ
+KK5n8hD7Gxt9Os47W2TZEg4GcknqST1JJ5JPUmrFFFQ227sYUUUUgCiiigAooooAKKKKACqu
+pf8AILu/+uL/APoJq1VXUv8AkF3f/XF//QTQB3NFFFABRRRQB8AUUUUAfb/gT/knnhr/ALBV
+r/6KWrHiW61i20wDRLCS7upZBGWRo8wIc5kxIyhiOy56kZ4zVfwJ/wAk88Nf9gq1/wDRS10F
+AHnEnhzUbfTdTs9O0a6MWr6Uth/pM8Je2kDTbnmIchg3nb/k3HOeBmuxvbXXi8S6XqenW8CR
+hWW7sHndmGedyzIAMY4x6888a1FAHnHhoTLplytxJHJONTvxI8aFFZvtcuSFJJAz2yceprYr
+L0H/AI9b7/sK6h/6VzVqUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AVm6rqb2hitLONZ9RuMiGIn5VA6u/ogzz68Acmn6rqa6dCipGZ7ydtlvbqcGRv6KOpPYflTd
+K0xrIS3FzIJ9QuMGebGBx0RR2Qdh9SeSTWkUkuaX9f8AAEP0vTE02B8yNPczNvuLhx80r+vs
+B0A6AYFXqKKhtt3YwooopAFFFFABRRRQAUUUUAFFFFABVXUv+QXd/wDXF/8A0E1aqrqX/ILu
+/wDri/8A6CaAO5ooooAKKKKAPgCiiigD7f8AAn/JPPDX/YKtf/RS10Fc/wCBP+SeeGv+wVa/
++ilroKACiiigDzzQf+PW+/7Cuof+lc1alZeg/wDHrff9hXUP/SuatSgAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKp6lqUOmWvnSKzuzBIoU5eVz0VR6/yGSeBT7+/t9Ns3
+urlisa4AAGWYngKo7kngDvVDTLC4muv7W1NQLxlKwwZytrGf4R6ueNzfgOBzcYq3NLYQ/StN
+mimk1HUGWTUp1w205WFOojT2Hc/xHn0A1aKKUpOTuxhRRRUgFFFFABRRRQAUUUUAFFFFABRR
+RQAVV1L/AJBd3/1xf/0E1aqrqX/ILu/+uL/+gmgDuaKKKACiiigD4AooooA+3/An/JPPDX/Y
+Ktf/AEUtdBXP+BP+SeeGv+wVa/8Aopa6CgAooooA880H/j1vv+wrqH/pXNWpWXoP/Hrff9hX
+UP8A0rmrUoAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKhurqCxtZbq5lWKCJdzu3
+QCnyyxwQvLK6pGilmdjgKB1JNYlrFJr93HqN0jJp8Tb7O3cYMh7TOP8A0FT06nnGLjG+r2Af
+YWs+p3iatqMTRhM/YrR/+WIPG9h/z0I/75Bx1Jzt0UUpS5mAUUUVIBRRRQAUUUUAFFFFABRR
+RQAUUUUAFFFFABVXUv8AkF3f/XF//QTVqqupf8gu7/64v/6CaAO5ooooAKKKKAPgCiiigD7f
+8Cf8k88Nf9gq1/8ARS10Fc/4E/5J54a/7BVr/wCilroKACiiigDzzQf+PW+/7Cuof+lc1alZ
+eg/8et9/2FdQ/wDSuatSgAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACkJABJOAOpNI0iK6
+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
+AA0d4w/6Buh/9+Jv/jtAHj9FWvsyerUUAf/Z
+</d>
+</data>
+</abiword>

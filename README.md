@@ -45,4 +45,6 @@ Some branches are protected, so you will not be abled to merge into them. (Creat
 
 Go to SmartIrrigation-Webapp folder
 
-Run npm run dev 
+Run npm run dev to go to the web page
+
+Run login.html under fronted/login/login.html for correct login page

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+      <meta charset="UTF-8">
+      <title>Smart Irrigation Login</title>
+      <link rel="stylesheet" href="static/css/materialize.min.css">
+      <link rel="stylesheet" href="static/css/login.css">
+      <script type="text/javascript">
+        // redirect to app page if we have token
+        var token = localStorage.getItem("token")
+        if (token) {
+          // app.html has build.js coded into it
+          // theoretically we could put build.js in here?
+          // someone in the future can figure that out
+          window.location.href = '/app.html'
+        }
+      </script>
+    </head>
+    <body>
+      <!-- Use the column and row functionality from the included materize files-->
+<!--        Each row is divided into 12 columns-->
+        <div class="myContainer">
+<!--            Specify the margin to overwrite the inherited margin functionality-->
+            <div class="row" style="margin: 0px;" >
+                <div class="col s7 topLeftSquare border" style="color:white;">
+                    <div style = "margin: 10%;">
+                      <h1 style = "margin-left: 10%;">SlugSense</h1>
+<!--                        Iclude the checkmark images and the descriptive text-->
+                      <img src = "src/assets/forest-login/checkmark.png" height="60px" width="60px" align="center">
+                      Automated environmental monitoring <br>
+                      <img src = "src/assets/forest-login/checkmark.png" height="60px" width="60px" align="center">
+                      Historical data analytics<br>
+                      <img src = "src/assets/forest-login/checkmark.png" height="60px" width="60px" align="center">
+                      Wi-Fi™ connectivity <br>
+                      <img src = "src/assets/forest-login/checkmark.png" height="60px" width="60px" align="center">
+                      Increased crop performance
+                      <br>
+                      <img src = "src/assets/forest-login/checkmark.png" height="60px" width="60px" align="center">
+                      Reduced environmental footprint
+                      <br>
+                      <img src = "src/assets/forest-login/checkmark.png" height="60px" width="60px" align="center">
+                      Save water and money
+                      <br>
+                      <div style="margin-left: 25%">
+<!--                          The facebook and instagram image links.-->
+                        <a href = "https://facebook.com"><img src="src/assets/forest-login/facebook.png" height = "60px" width = "60px" align="center"></a>
+                        <a href = "https://instagram.com"><img src="src/assets/forest-login/instagram.png" height = "60px" width = "60px" align="center"></a>
+                      </div>
+                  </div>
+    
+                </div>
+<!--                Beginning of the input login display.-->
+                <form method="post" id="loginForm">
+                  <div class="col s5 wrapper border">
+                      <div class = "row rightBox">
+                          <div class="col s2 border"></div>
+                          <div class="col s8 white border" style="margin-top:28%;">
+                              <div class="row border loginBox">
+                                  <div class="input-field col s12"
+                                       style="margin-top: 0px;">
+                                      <input id="username" type="text" class="validate">
+                                      <label for="username">username</label>
+                                  </div>
+                                  <div class="input-field col s12"
+                                       style="margin-top: 0px;">
+                                      <input id="password" type="password" class="validate">
+                                      <label for="password">password</label>
+                                  </div>
+                                  <div style="text-align: right; font-size: 69%">
+                                      <!-- In the future, this will actually do something -->
+                                      <p><a href="#">Forgot Your Username?</a></p>
+                                      <p><a href="#">Forgot Your Password?</a></p>
+                                  </div>
+                                  <!-- a div for error messages to display
+                                  (jQuery displays errors here) -->
+                                  <div id="errMess" style="color: gray; text-align: center;">
+                                  </div>
+                                  <button>Login</button>                               
+                                  <p style="text-align: center;">
+                                  <!-- links to page that's about SlugSense staff! -->
+                                  <a href = "frontend/AboutUs/About.html"><img style="align: center; max-width: 100%; height: auto; width: auto;" src="src/assets/logo2.png" alt="About Us"></a>
+                                  </p>
+                              </div>
+                          </div>
+                          <div class="col s2 border"></div>
+                      </div>
+                  </div>
+                </form>
+            </div>
+        </div>
+      </body>
+    <script src="static/js/jquery.js"></script>
+    <script src="static/js/crypto-js.min.js"></script>
+    <script src="static/js/materialize.min.js"></script>
+    <script src="static/js/index.js"></script>
+    <script type="text/javascript">
+      // jQuery convenience - if someone hits "enter"/submits the login form,
+      // this code runs; don't need to click login button manually
+      $("#loginForm").submit(function(e) {
+        e.preventDefault();
+
+        // need to make sure that fields aren't blank
+        // otherwise, spit notification to id="errMess"
+        var myUsername = document.getElementById('username').value;
+        var myPassword = document.getElementById('password').value;
+        if(!myUsername || !myPassword) {
+          $("#errMess").text("Fill out all fields")
+          return;
+        }
+        // if browser supports localStorage
+        if (typeof(Storage) !== "undefined"){
+          // this line is from old website script - not sure if we really need it
+          sessionStorage.setItem("username", myUsername);
+
+          // jQuery gets values from text fields
+          // password is hashed to MD5 because API takes MD5 hash of password
+          // should be updated to SHA-3/SHA-256 in the future?
+          var myUsername = $("#username").val();
+          var myPassword = CryptoJS.MD5($("#password").val()).toString();
+
+          // API takes POST requests for some reason
+          // Peter Alvaro might teach you that RESTful APIs don't use POST
+          $.ajax({
+              type: "POST",
+              url: "https://slugsense.herokuapp.com/api/users/login",
+              data: {
+                username: myUsername,
+                password: myPassword
+              },
+              success: function(data){
+                localStorage.setItem("token", data.api_token);
+                // redirect you to html where build.js is stored
+                window.location.href = '/app.html'
+              },
+              error: function (err) {
+                // API response can tell you what goes wrong
+                console.log(err.responseJSON);
+                $("#errMess").text("invalid login");
+              }
+            });
+        }
+        else {
+          $("#errMess").text("Your browser is out of date! Please use a more recent browser");
+        }
+      });
+    </script>
+    
+    </body>
+</html>

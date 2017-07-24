@@ -42,5 +42,7 @@ Switch to a proper branch for your development.
 Some branches are protected, so you will not be abled to merge into them. (Create a pull request if necessary)
 
 #Run Application
+
 Go to SmartIrrigation-Webapp folder
+
 Run npm run dev 

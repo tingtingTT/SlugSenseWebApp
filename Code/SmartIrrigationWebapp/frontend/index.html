@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <meta charset="UTF-8">
+        <title>Smart Irrigation Login</title>
+        <link rel="stylesheet" href="materialize.min.css">
+        <link rel="stylesheet" href="login.css">
+        
+<!--
+        <script type="text/javascript">
+          var token = localStorage.getItem("token");
+          if(token){
+            console.log("you have a token");
+            console.log(token);
+            window.location.href = '/index.html';
+          }
+        </script>
+-->
+    </head>
+    <body>
+        <div class="myContainer">
+            <div class="row" style="">
+                <div class="col s7 topLeftSquare border" style="color:white;">
+                    <div style = "margin: 10%;">
+                        <h1 style = "margin-left: 10%;">SlugSense</h1>
+                        <img src = "static/images/forest-login/checkmark.png" height="60px" width="60px" align="center">Automated environmental monitoring <br>
+                        <img src = "static/images/forest-login/checkmark.png" height="60px" width="60px" align="center">Historical data analytics<br>
+                        <img src = "static/images/forest-login/checkmark.png" height="60px" width="60px" align="center">
+                        Wi-Fi™ connectivity <br>
+                        <img src = "static/images/forest-login/checkmark.png" height="60px" width="60px" align="center">
+                        Increased crop performance
+                        <br>
+                        <img src = "static/images/forest-login/checkmark.png" height="60px" width="60px" align="center">
+                        Reduced environmental footprint
+                        <br>
+                        <img src = "static/images/forest-login/checkmark.png" height="60px" width="60px" align="center">
+                        Save water and money
+                        <br>
+                        <div style="margin-left: 25%">
+                            <a href = "https://facebook.com"><img src="static/images/forest-login/facebook.png" height = "60px" width = "60px" align="center"></a>
+                            <a href = "https://instagram.com"><img src="static/images/forest-login/instagram.png" height = "60px" width = "60px" align="center"></a>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="col s5 wrapper border">
+                    <div class = "row rightBox">
+                        <div class="col s2 border"></div>
+                        <div class="col s8 white border" style="margin-top:28%;">
+                            <div class="row border loginBox">
+                                <div class="input-field col s12"
+                                     style="margin-top: 0px;">
+                                    <input id="username" type="email" class="validate">
+                                    <label for="email">username</label>
+                                </div>
+                                <div class="input-field col s12"
+                                     style="margin-top: 0px;">
+                                    <input id="password" type="password" class="validate">
+                                    <label for="password">password</label>
+                                </div>
+                                <div style="text-align: right; font-size: 69%">
+                                    <p><a href="#">Forgot Your Username?</a></p>
+                                    <p><a href="#">Forgot Your Password?</a></p>
+                                </div>
+                                <div id="result" style="color: gray; text-align: center;">
+                                    <p id="errMess"></p>
+                                </div>
+                                <button onclick="login()">Login</button>                               
+                                <p style="text-align: center;">
+                                <img style="align: center; max-width: 100%; height: auto; width: auto;" src="static/images/logo2.png" alt="Slugsense Logo">
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col s2 border"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="static/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js"></script>
+    <script type="text/javascript">
+        
+      function login() {
+        var myUsername = document.getElementById('username').value;
+        var myPassword = document.getElementById('password').value;
+        if(!myUsername || !myPassword) {
+          console.log("error, fields are empty");
+          document.getElementById("result").innerHTML = "Fill out all fields";
+          return;
+        }
+        if(typeof(Storage) !== "undefined"){
+          sessionStorage.setItem("username", myUsername);
+          // remove bottom comment to enable hashing password
+          var myUsername = $("#username").val();
+          var myPassword = CryptoJS.MD5($("#password").val()).toString();
+          console.log(myUsername+ myPassword);
+          $.ajax({
+              type: "POST",
+              url: "https://slugsense.herokuapp.com/api/users/login",
+              data: {
+                username: myUsername,
+                password: myPassword
+              },
+              success: function(data){
+                console.log(data);
+                localStorage.setItem("token", data.api_token);
+                window.location.href = '/app.html'
+              },
+              error: function (err) {
+                console.log(err);
+                console.log(JSON.stringify(err));
+                console.log(err.resposeJSON);
+                console.log("invalid credentials");
+                console.log()
+                $("#errMess").text("invalid login");
+              }
+              // dataType: dataType
+            });
+          console.log("password is "+ $("#password").val());
+        } else{
+          document.getElementById("result").innerHTML = "your browser is out of date";
+        }
+      }
+    </script>
+
+    <script src="static/js/index.js"></script>
+
+
+    </body>
+</html>

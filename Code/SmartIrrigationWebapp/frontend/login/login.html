@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Smart Irrigation Login</title>
+        <link rel="stylesheet" href="static/css/login.css">
+        <script type="text/javascript">
+          var token = localStorage.getItem("token");
+          if(token){
+            console.log("you have a token");
+            console.log(token);
+            window.location.href = '/index.html';
+          }
+        </script>
+        <style>
+        #topbar{
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100vw;
+          height: 90px;
+          z-index: 100;
+          opacity: 0.8;
+        }
+        .cyan {
+          background-color: black !important;
+          border-color: #00bcd4!important;
+        }
+        li {
+            display: inline-block;
+        }
+
+        </style>
+    </head>
+
+    <body>
+        <div id= "background" class = "back">
+            <img src = "static/images/forest-login/forest2.png" height="100%" width="100%" class = "forest" alt = "" \>
+        </div>
+        <div class = "leftSquare"></div>
+        
+    
+        <div class = "TopleftSquare">
+            <img src = "static/images/forest-login/facebook.png" width = "10%" height="10%" class = "FB">
+            <button id = "FaceBook" class = "FBbutton" on:click="GoFB">
+            </button>
+            <img src = "static/images/forest-login/instagram.png" width = "10%" height="10%" class = "IG">
+            <button id = "Insta" class = "IGbutton" on:click = "GoIG">
+            </button>
+            <div class = "textBox">
+                <div class = "bigtext">
+                    SlugSense
+                </div>
+                
+                <img src = "static/images/forest-login/checkmark.png" height="60px" width="60px" align="center">
+                Remove environment monitoring
+               <br>
+                
+                <img src = "static/images/forest-login/checkmark.png" height="60px" width="60px" align="center">
+                Historical data analytics
+                <br>
+                    
+                <img src = "static/images/forest-login/checkmark.png" height="60px" width="60px" align="center">
+                WIFI connectivity
+                <br>
+                
+                <img src = "static/images/forest-login/checkmark.png" height="60px" width="60px" align="center">
+                Increase crop performance
+                <br>
+                
+                <img src = "static/images/forest-login/checkmark.png" height="60px" width="60px" align="center">
+                Reduce carbon footprint
+                <br>
+                
+                <img src = "static/images/forest-login/checkmark.png" height="60px" width="60px" align="center">
+                Save water and money
+                <br>
+                
+            </div>
+        </div>
+        
+<!--A div tag for the transparent right square.-->
+        <div class = "rightSquare"></div>
+        
+<!--
+        <div id="topbar" class="cyan">
+            <ul id="buttonList">
+                <li><a href="../AboutUs/About.html" class="buttonAbout">About</a></li>
+                <li><a href="../AboutUs/About.html" class="buttonAbout">Contact</a></li>
+            </ul>
+        </div>
+-->
+    <div class = "box">
+        <form action="/" method="post" id="loginForm">
+          <div class="group">
+                <input type="text" name="username" id="username" value="" autofocus><span class="highlight"></span><span class="bar"></span>
+                <label>Username</label>
+            </div>
+
+            <!--password field-->
+            <div class="group">
+                <input type="password" name="password" id="password" value=""><span class="highlight"></span><span class="bar"></span>
+                <label>Password</label>
+            </div>
+            <div class = "getPWdiv">
+                <button id = "getUserPassword">Forgot your password?</button>
+            </div>
+            <div class = "getIDdiv">
+                <button id = "getUserid">Forgot your username?</button>
+            </div>
+          <div>
+              <!-- <input type="submit" value="Log In"/> -->
+              <button class="button buttonBlue">Log in
+                <div class="ripples buttonRipples"><span class="ripplesCircle"></span></div>
+              </button>
+          </div>
+          <!--this <p> is only needed to center the logo image-->
+          <p style="text-align:center;">
+            <img class="logoImage" src="static/images/logo2.png" alt="Slugsense Logo">
+          </p>
+          <div id="result">
+            <p id="errMess"></p>
+          </div>
+        </form>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="bower_components/crypto-js/crypto-js.js"></script>
+
+    <!--function that is called on click of the Login button-->
+    <!-- <script type="text/javascript">
+      $("#loginForm").submit(function(e){
+        e.preventDefault();
+        var myUsername = document.getElementById('username').value;
+        var myPassword = document.getElementById('password').value;
+        var hashedPass = CryptoJS.MD5(myPassword);
+
+        if(!myUsername || !myPassword) {
+          console.log("error, fields are empty");
+          document.getElementById("result").innerHTML = "Fill out all fields";
+          return;
+        }
+        if(typeof(Storage) !== "undefined"){
+          var form = this;
+          sessionStorage.setItem("username", myUsername);
+          // remove bottom comment to enable hashing password
+          // $("#password").val(hashedPass);
+          console.log("password is "+ $("#password").val());
+          form.submit();
+        } else{
+          document.getElementById("result").innerHTML = "your browser is out of date";
+        }
+      });
+    </script> -->
+
+    <script type="text/javascript">
+        
+        document.getElementById("FaceBook").onclick = GoFB;
+        document.getElementById("Insta").onclick = GoIG;
+        
+        function GoFB () {
+            console.log("The user wants to connect to FB");
+            window.location.href = "https://www.facebook.com/";
+        }
+        function GoIG (){
+            console.log("The user wants to connect to IG");
+            window.location.href = "https://www.instagram.com/?hl=en";
+        }
+        function UserID () {
+            console.log("The user forgot their id");
+        }
+        
+        function UserPW () {
+            console.log("The user forgot their password");
+        }
+        
+      $("#loginForm").submit(function(e){
+        e.preventDefault();
+        var myUsername = document.getElementById('username').value;
+        var myPassword = document.getElementById('password').value;
+        var hashedPass = CryptoJS.MD5(myPassword);
+
+        if(!myUsername || !myPassword) {
+          console.log("error, fields are empty");
+          document.getElementById("result").innerHTML = "Fill out all fields";
+          return;
+        }
+        if(typeof(Storage) !== "undefined"){
+          var form = this;
+          sessionStorage.setItem("username", myUsername);
+          // remove bottom comment to enable hashing password
+           $("#password").val(hashedPass);
+          var myUsername = $("#username").val();
+          var myPassword = $("#password").val();
+          console.log(myUsername+ myPassword);
+          $.ajax({
+              type: "POST",
+              url: "https://slugsense.herokuapp.com/api/users/login",
+              data: {
+                username: myUsername,
+                password: myPassword
+              },
+              success: function(data){
+                console.log(data);
+                localStorage.setItem("token", data.api_token);
+                form.submit();
+              },
+              error: function (err) {
+                console.log(err);
+                console.log(JSON.stringify(err));
+                console.log(err.resposeJSON);
+                console.log("invalid credentials");
+                console.log()
+                $("#errMess").text("invalid login");
+              }
+              // dataType: dataType
+            });
+          console.log("password is "+ $("#password").val());
+        } else{
+          document.getElementById("result").innerHTML = "your browser is out of date";
+        }
+      });
+    </script>
+
+    <script src="static/js/index.js"></script>
+
+
+    </body>
+</html>

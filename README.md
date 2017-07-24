@@ -4,11 +4,11 @@ This repo for sprint/release plan checking.
 Real repo is under sponsered team leader. 
 
 
-SlugSense-Webapp
+# SlugSense-Webapp
 
 Commitizen friendly
 
-Prerequisite
+# Prerequisite
 
 #####Mac
 
@@ -31,12 +31,16 @@ NOTE***: everytime when you restart the terminal, the node version you use might
 
 node -v (this will verify your current version)
 
-Setup
+#Setup
 
-Mac
+#####Mac
 
 git clone https://github.com/tingtingTT/SlugSense_WebApp.git
 
 Switch to a proper branch for your development.
 
 Some branches are protected, so you will not be abled to merge into them. (Create a pull request if necessary)
+
+#Run Application
+Go to SmartIrrigation-Webapp folder
+Run npm run dev 

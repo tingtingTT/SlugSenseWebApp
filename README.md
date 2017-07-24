@@ -35,7 +35,7 @@ Setup
 
 Mac
 
-git clone https://github.com/Ewocker/SmartIrrigation-Webapp
+git clone https://github.com/tingtingTT/SlugSense_WebApp.git
 
 Switch to a proper branch for your development.
 

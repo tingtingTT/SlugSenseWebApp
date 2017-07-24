@@ -1,0 +1,62 @@
+/*The body mainly for the background format.*/
+body{
+    background-image: url("../../src/assets/forest-login/forest2.png");
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}
+
+/*Format the div to hold the input box*/
+.rightBox{
+    opacity: 0.75;
+}
+
+
+/*Format the div to hold the background and the text of the left side */
+.topLeftSquare{
+    font-family: 'Roboto';
+    height: 100vh;
+    background-color: rgba(76, 207, 224, 0.6);
+    overflow: hidden;
+    z-index: 2;
+}
+
+Add some padding to the top login
+.loginBox{
+    padding-top: 10%;
+}
+
+
+/*Class for the wrapper*/
+.wrapper{
+    background-color: rgba(180, 200, 230, 0.5);
+    height: 100vh;
+}
+
+/*Class that holds the div for the SlugSense text*/
+.bigtext {
+    position:relative;
+    color: white;
+    font-weight: 600;
+    font-size: 600%;
+    color: white;
+}
+
+/*Formats the button for logging in*/
+button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: dodgerblue;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}

@@ -6,7 +6,7 @@ Real repo is under sponsered team leader.
 
 # SlugSense Web Application
 
-Commitizen friendly
+An improved web application for continuing project SlugSense. SlugSense is an application that will monitor water usage of the sprinkler system and do adjustments. Base on different environmental factors the device is located, the amount of water used will be adjusted. This web application provides user a data chart that is related to the device. It will notify user if any of the factors is beyond limit. It also have notification, user authentication features.
 
 # Prerequisite
 
